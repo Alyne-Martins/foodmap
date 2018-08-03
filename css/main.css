@@ -1,45 +1,55 @@
-.logo-animation,
-.home {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-}
+ html,
+ body {
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+ }
 
-.logo-animation {
-	background-color: white;
-}
+ .logo-animation,
+ .home {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
 
-.home {
-	background-color: black;
-	display: none;
-}
+ .logo-animation {
+ 	background-color: white;
+ }
 
-.logo {
-	color: darkorange;
-	position: absolute;
-	font-family: 'Merienda', cursive;
-}
+ .home {
+ 	background-color: white;
+ 	display: none;
+ }
 
-#box-logo {
-	position: absolute;
-	background-color: black;
-	height: 1px;
-	width: 1px;
-}
+ .logo {
+ 	color: darkorange;
+ 	position: absolute;
+ 	font-family: 'Merienda', cursive;
+ }
 
-.line {
-	width: 400px;
-}
+ #box-logo {
+ 	position: absolute;
+ 	background-color: black;
+ 	height: 1px;
+ 	width: 1px;
+ }
 
-#map {
-	width: 400px;
-	height: 400px;
-}
+ .line {
+ 	width: 400px;
+ }
 
-.map {
-	border: 1px solid darkorange;
-	width: 410px;
-	height: 410px;
-}
+ #map {
+ 	height: 100%;
+ }
+
+ .box-map {
+ 	width: 300px;
+ 	height: 200px;
+ 	border: 2px solid darkorange;
+ }
+
+ .teste {
+ 	border: 2px solid white;
+ }
