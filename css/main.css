@@ -1,1 +1,45 @@
-/*Add your CSS*/
+.logo-animation,
+.home {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.logo-animation {
+	background-color: white;
+}
+
+.home {
+	background-color: black;
+	display: none;
+}
+
+.logo {
+	color: darkorange;
+	position: absolute;
+	font-family: 'Merienda', cursive;
+}
+
+#box-logo {
+	position: absolute;
+	background-color: black;
+	height: 1px;
+	width: 1px;
+}
+
+.line {
+	width: 400px;
+}
+
+#map {
+	width: 400px;
+	height: 400px;
+}
+
+.map {
+	border: 1px solid darkorange;
+	width: 410px;
+	height: 410px;
+}
