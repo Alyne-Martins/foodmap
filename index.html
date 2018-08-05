@@ -15,7 +15,7 @@
 	<title>Home</title>
 </head>
 
-<body>
+<body class="col-12">
 
 	<section class="logo-animation d-flex justify-content-center">
 		<div id="box-logo" class=" d-flex justify-content-center align-self-center">
@@ -24,27 +24,32 @@
 	</section>
 
 	<section class="home">
-		<div class="d-flex justify-content-center">
-			<h1 class="logo mt-4 mb-5">FOODMAP</h1><br>
-			<img class="line" src="assets/line.png">
+		<div class="d-flex justify-content-center logo-home col-12 mb-2">
+			<h1 class="logo mb-5 align-self-center">FOODMAP</h1><br>
 		</div>
 		<div class="d-flex justify-content-center">
-			<div class="box-map mt-0">
+			<div class="box mt-4 col-10">
 				<div id="map">
 				</div>
-				<div class="input-group mb-3 mt-4">
-
-					<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-					<div class="input-group-prepend">
-						<span class="input-group-text" id="basic-addon1">@</span>
-					</div>
-				</div>
 			</div>
-		</div>
-		<div>
 
 		</div>
+		<div class="input-group mb-3 mt-4 col-12 d-flex justify-content-center">
+			<div class="d-flex justify-content-center col-10 my-3">
+				<input id="filter" class="form-control" type="text" placeholder="Buscar restaurante ou comida">
+				<div class="input-group-prepend">
+					<button type="button" class="btn filtrar"><i class="icon-search"></i> FILTRAR</button>
+				</div>
 
+			</div>
+
+		</div>
+		<div class="d-flex justify-content-center">
+			<div id="box-img" class="d-flex justify-content-between flex-wrap col-10">
+			</div>
+
+
+		</div>
 	</section>
 
 
@@ -62,4 +67,3 @@
 </body>
 
 </html>
-

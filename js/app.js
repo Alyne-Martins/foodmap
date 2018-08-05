@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$('.home').delay('5000').fadeIn('slow');
+	$('.home').delay('6000').fadeIn('slow');
 	var boxLogo = $("#box-logo");
 	boxLogo.animate({
 		height: '250px'
@@ -22,10 +22,38 @@ $(document).ready(function () {
 		height: '250px',
 		opacity: '1.0'
 	}, "slow");
+	boxLogo.animate({
+		width: '250px',
+		height: '250px',
+		opacity: '0.6'
+	}, "slow");
+	boxLogo.animate({
+		width: '250px',
+		height: '250px',
+		opacity: '1.0'
+	}, "slow");
 
+	for (var i of restaurantes) {
+		var imgRestaurante = i.image;
+		var imgHtml = '<img class="img-Restaurante mb-2" src="' + imgRestaurante + '" alt="">';
+		$("#box-img").append(imgHtml);
+	};
+
+	$('.filtrar').click(function () {
+		alert('deu certo');
+
+	});
 
 
 });
+
+
+
+
+
+
+
+
 function initMap() {
 	// The location of Uluru
 	var uluru = {

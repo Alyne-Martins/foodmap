@@ -1,55 +1,80 @@
- html,
- body {
- 	height: 100vh;
- 	margin: 0;
- 	padding: 0;
- }
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
 
- .logo-animation,
- .home {
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	width: 100vw;
- 	height: 100vh;
- }
+.logo-animation,
+.home {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 
- .logo-animation {
- 	background-color: white;
- }
+}
 
- .home {
- 	background-color: white;
- 	display: none;
- }
+.home {
+	/*	display: none;*/
+	height: auto;
+	background-color: white;
+}
 
- .logo {
- 	color: darkorange;
- 	position: absolute;
- 	font-family: 'Merienda', cursive;
- }
 
- #box-logo {
- 	position: absolute;
- 	background-color: black;
- 	height: 1px;
- 	width: 1px;
- }
+.logo {
+	position: absolute;
+	font-family: 'Merienda', cursive;
+	color: darkorange;
+}
 
- .line {
- 	width: 400px;
- }
+#box-logo {
+	position: absolute;
+	background-color: black;
+	height: 1px;
+	width: 1px;
+}
 
- #map {
- 	height: 100%;
- }
+.logo-home {
+	height: 80px;
+	background-color: black;
+	border-bottom: 2px double darkorange;
+}
 
- .box-map {
- 	width: 300px;
- 	height: 200px;
- 	border: 2px solid darkorange;
- }
+.line {
+	width: 400px;
+}
 
- .teste {
- 	border: 2px solid white;
- }
+#map {
+	height: 100%;
+	border: 2px solid black;
+}
+
+.box {
+	height: 250px;
+}
+
+#box-img {
+	height: auto;
+	background-color: white;
+}
+
+.img-Restaurante {
+	height: 20vh;
+	width: 25vh;
+	box-shadow: 2px 2px 4px black;
+}
+
+.img-Restaurante:hover {
+	opacity: 0.5;
+	border: 3px solid darkorange;
+}
+
+.icon-search,
+.filtrar {
+	background-color: black;
+	color: white;
+}
+
+.filtrar:hover {
+	box-shadow: 0px 0px 8px 2px darkorange;
+}
