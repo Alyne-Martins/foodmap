@@ -40,19 +40,19 @@ $(document).ready(function () {
 	};
 
 	$('.filtrar').click(function () {
-		alert('deu certo');
-
+		var typedWord = $('#filter').val();
+		$('.img-Restaurante').remove();
+		for (var restaurante of restaurantes) {
+			if (typedWord == restaurante.type || typedWord == restaurante.name) {
+				var imgTyped = restaurante.image;
+				var imgRest = '<img class="img-Restaurante mb-2" src="' + imgTyped + '" alt="">';
+				$("#box-img").append(imgRest);
+			}
+		}
 	});
 
 
 });
-
-
-
-
-
-
-
 
 function initMap() {
 	// The location of Uluru
