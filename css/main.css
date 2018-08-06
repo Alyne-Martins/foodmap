@@ -24,7 +24,7 @@ body {
 	position: absolute;
 	font-family: 'Love Ya Like A Sister', cursive;
 	color: firebrick;
-	font-size: 70px;
+	font-size: 60px;
 }
 
 #logo {
@@ -73,8 +73,8 @@ body {
 }
 
 .img-Restaurante {
-	height: 25vh;
-	width: 30vh;
+	height: 20vh;
+	width: 25vh;
 	border: 2px solid forestgreen;
 	box-shadow: 2px 2px 8px 2px #4f4f4f;
 	border-radius: 10%;
@@ -98,7 +98,7 @@ body {
 .titulo {
 	font-family: 'Love Ya Like A Sister', cursive;
 	color: firebrick;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .img-modal {
