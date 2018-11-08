@@ -10,6 +10,7 @@ Projeto hospedado no git pages: https://alyne-martins.github.io/foodmap/
 - CSS
 - JavaScript
 - json
+- bootstrap
 
 #### versão 0.0.1 (released)
 
